@@ -48,7 +48,7 @@ function gotResult(error, results) {
             document.getElementById("update_emoji").innerHTML = "&#128077"
         }
         if (results[0].label == "victory") {
-            document.getElementById("update_emoji").innerHTML = "&#129304"
+            document.getElementById("update_emoji").innerHTML = "&#129304"}
             if (results[0].label == "amazing") {
                 document.getElementById("update_emoji").innerHTML = "#128076"
             }
